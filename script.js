@@ -4,7 +4,7 @@ const bg = document.querySelector('.bg')
 let load = 0
 
 // the number represents MILISECONDS and not seconds
-let int = setInterval(blurring, 50)
+let int = setInterval(blurring, 30)
 
 function blurring() {
     load++
